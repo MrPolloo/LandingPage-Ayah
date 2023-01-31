@@ -1,0 +1,228 @@
+.headerPhoto {
+  background-image: url('/profil.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: top; */
+  background-position: right top;
+  background-size: 100vh;
+  height: 130vh;
+  width: 99.4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit:contain;
+  margin-top: -12vh;
+  z-index: 1;
+  /* clip-path: circle(50% at 100% 35%); */
+}
+
+.photoBoxTop {
+  display: flex;
+  justify-content: flex-end;
+  min-height: fit-content;
+  min-width: fit-content;
+}
+
+.photoTop {
+  width: 40vw;
+  object-fit: cover;
+  z-index: 10;
+}
+
+.greetingsName {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  margin: 10vh 6vw 0 8vw;
+  font-size: 80px;
+  /* width: 60vw; */
+}
+
+.greetingsName p {
+  margin-top: -20px;
+  color: #FFB301;
+}
+
+.greetingsName div {
+  width: 40vw;
+  margin-top: -20px;
+  font-weight: 100;
+  color: white;
+  font-size: 20px;
+}
+
+.cardWhyYouShould {
+  margin: 500px 10vw 20vh 10vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardPhoto {
+  width: 25vw;
+  height: 70vh;
+  border-radius: 20px;
+  box-shadow: rgba(255, 179, 1, 0.4) 5px 5px, rgba(255, 179, 1, 0.3) 10px 10px, rgba(255, 179, 1, 0.2) 15px 15px, rgba(255, 179, 1, 0.1) 20px 20px, rgba(255, 179, 1, 0.05) 25px 25px;
+  object-fit: cover;
+}
+
+.textCard {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.textCard div {
+  color:#FFB301;
+}
+
+.textCard p {
+  color:white;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.awesomeServ {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+  justify-content: center;
+}
+
+.awesomeServ p {
+  color: #FFB301;
+}
+
+.cardServ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px 30vh 20vh 30vh;
+
+}
+
+.cardServ .div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardServPc {
+  --bs-card-bg: #31313a !important;
+  color: White;
+  width: 20rem;
+  margin: 0 10px 0 10px;
+}
+
+.iconCardServ {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.educationTitle {
+  font-weight: 900;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15vh 0 10vh 0;
+  font-size: 30px;
+}
+
+.eduExpBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.lineMid {
+  border-left: 5px #FFB301 solid;
+}
+
+.eduBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.eduDescBox {
+  margin: auto;
+  width: 30vw;
+  height: 90px;
+  min-height: fit-content;
+  background-color: #31313a;
+  border-radius: 15px;
+  border-left: 5px #FFB301 solid;
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.eduContent {
+  margin: 10px 2vw 10px 2vw;
+  color: #FFB301;
+}
+
+.eduJurusan {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.eduJurusan p {
+  margin: 0;
+}
+
+.contactMeBg {
+  background-color: #FFB301;
+  width: 100%;
+  height: 300px;
+  min-height: fit-content;
+  margin: 200px 0 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 900;
+  font-size: 25px;
+  flex-direction: column;
+}
+
+.contactSosmed {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactMeBg a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 1100px) {
+  .greetingsName {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .greetingsName {
+    font-size: 45px;
+  }
+  .greetingsName div {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .greetingsName {
+    font-size: 30px;
+  }
+  .greetingsName div {
+    font-size: 14px;
+  }
+}
+

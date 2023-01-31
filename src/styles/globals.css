@@ -1,0 +1,66 @@
+:root {
+  --bs-body-bg:rgba(255, 255, 255, 0) !important;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', serif;
+  background-color: #121528;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+ol li::before {
+  counter-increment: section;
+  content: counters(section, ' ') '. ';
+  margin-left: -18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #15406a;
+  border-radius: 20px;
+  width: 10px;
+}
+
+.accordion-button {
+  background-color: white !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+}

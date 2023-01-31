@@ -1,0 +1,105 @@
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 16px;
+  gap: 8px;
+  border-radius: 8px;
+  height: 48px;
+  border: none;
+  box-shadow: none !important;
+}
+
+.outlinednavbar {
+  border: 3px solid white;
+  background-color: #15406a;
+  width: 11vw;
+  height: 5vh;
+  border-radius: 5px;
+  font-weight: bold;
+  min-width: max-content;
+  padding: 1vh 1.5vw 1vh 1.5vw;
+}
+
+.btn-check {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 16px;
+  gap: 8px;
+  border-radius: 12px;
+  height: 48px;
+  color: #15406a;
+  border: none;
+  box-shadow: none !important;
+}
+
+.btn:active {
+  background: #15406a;
+  border: 1px solid #15406a;
+  box-shadow: none;
+}
+.btn:hover {
+  background: white;
+  border: 3px solid #15406a;
+  color: #15406a;
+  box-shadow: none;
+}
+.btn:focus {
+  background: #15406a;
+  border: 1px solid #15406a;
+  box-shadow: none;
+  color: white;
+}
+.btn:checked {
+  border: 1px solid #15406a;
+  box-shadow: none;
+}
+
+.btn-check:active {
+  background: #15406a;
+}
+
+.btn:disabled {
+  background: #15406a;
+  color: white;
+}
+
+.primary {
+  /* color: #15406A; */
+  background: #15406a;
+  border: 3px solid #15406a;
+}
+
+.light {
+  color: #15406a;
+  background: #e2d4f0;
+  border: 1px solid #e2d4f0;
+}
+
+.outlined {
+  border: 3px solid white;
+  color: white;
+  background: none;
+}
+
+.outlinednavbar:hover,
+.outlinednavbar:active {
+  background-color: #446688;
+  border: 3px solid #446688;
+  color: white;
+}
+
+.lamar {
+  background: #25630f;
+  font-weight: bold;
+  border: 3px solid white;
+  color: white;
+}
+
+.lamar:hover {
+  background: white;
+  border: 3px solid#25630F;
+  color: #25630f;
+}
