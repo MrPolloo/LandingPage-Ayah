@@ -24,7 +24,7 @@ if(!Array.isArray(slides) || slides.length<=0){
     <section className={styles.slider}>
         <ArrowLeftCircleFill className={styles.leftArr} onClick={prevSlide}/>
         <ArrowRightCircleFill className={styles.rightArr} onClick={nextSlide} />
-        {SliderData.map((slide,index) => {
+        {SliderData?.map((slide,index) => {
             return (
                 <div className={styles.imgTextSlider} key={index}>
                     {index === current && (<>
