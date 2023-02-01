@@ -9,6 +9,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.css';
 import styles from '../styles/Nav.module.css';
 import '../styles/Nav.module.css';
+import Image from 'next/image';
 
 
 export function NavbarModul() {
@@ -27,7 +28,7 @@ export function NavbarModul() {
       <Navbar sticky="top" className={styles.navbar} >
         <Container fluid className={styles.container}>
           <NavbarBrand href="/home">
-            <img src="/PKS_logo_2020.png" className={styles.logo} />
+            <Image src="/PKS_logo_2020.png" className={styles.logo} />
           </NavbarBrand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

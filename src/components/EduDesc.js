@@ -7,7 +7,7 @@ export function EduDecs() {
         <>
         {EduData.map((edu, index) => {
             return (
-                <div className={styles.eduDescBox}>
+                <div key={edu.id} className={styles.eduDescBox}>
                     <div className={styles.eduContent}>
                     <Row>
                         <Col>

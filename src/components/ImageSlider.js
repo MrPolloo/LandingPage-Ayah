@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { ArrowLeftCircleFill, ArrowRightCircleFill } from 'react-bootstrap-icons'
 import { SliderData } from './Data/SliderData'
 import styles from '../styles/ImgSlider.module.css'
+import Image from 'next/image'
 
 const ImageSlider = ({ slides }) => {
 const [current, setCurrent] = useState(0)
@@ -27,7 +28,7 @@ if(!Array.isArray(slides) || slides.length<=0){
             return (
                 <div className={styles.imgTextSlider} key={index}>
                     {index === current && (<>
-                        <img src={slide.image} className={styles.imageSlide}/>
+                        <Image src={slide.image} className={styles.imageSlide}/>
                    <div className={styles.judulSlider}>{slide.judul}</div>
                    <div className={styles.textSlider}>{slide.text}</div></>
                     )}
