@@ -13,7 +13,7 @@ import { ExpDesc } from '../components/ExpDesc'
 
 export default function Home() {
 
-  const edu = EduData;s
+  const edu = EduData;
   return (
     <>
       <Head>
