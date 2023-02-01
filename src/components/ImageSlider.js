@@ -28,7 +28,7 @@ if(!Array.isArray(slides) || slides.length<=0){
             return (
                 <div className={styles.imgTextSlider} key={index}>
                     {index === current && (<>
-                        <Image src={slide.image} alt='Kegiatan' className={styles.imageSlide}/>
+                        <Image src={slide.image} alt='Kegiatan'  width={1920} height={1080}className={styles.imageSlide}/>
                    <div className={styles.judulSlider}>{slide.judul}</div>
                    <div className={styles.textSlider}>{slide.text}</div></>
                     )}

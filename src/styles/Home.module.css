@@ -25,7 +25,7 @@
 
 .photoTop {
   width: 40vw;
-  object-fit: cover;
+  height: 100%;
   z-index: 10;
 }
 

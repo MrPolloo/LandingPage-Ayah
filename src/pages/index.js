@@ -32,13 +32,15 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             </div>
           </div>
-          <Image src='/profil.png' alt='profil' className={styles.photoTop}/>
+          <Image src='/profil.png' 
+          width={308} height={400} 
+          alt='profil' className={styles.photoTop}/>
         </div>
 
 
       <div className={styles.cardWhyYouShould}>
         <Col>
-          <Image src='/tkit.jpg' alt='Foto Ahmad Ependi' className={styles.cardPhoto}/>
+          <Image src='/tkit.jpg' width={1920} height={1080} alt='Foto Ahmad Ependi' className={styles.cardPhoto}/>
         </Col>
         <Col className={styles.textCard}>
           Kenapa Anda Harus Memilih

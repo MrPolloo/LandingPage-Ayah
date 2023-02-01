@@ -28,7 +28,7 @@ export function NavbarModul() {
       <Navbar sticky="top" className={styles.navbar} >
         <Container fluid className={styles.container}>
           <NavbarBrand href="/home">
-            <Image src="/PKS_logo_2020.png" alt='Logo PKS' className={styles.logo} />
+            <Image src="/PKS_logo_2020.png" alt='Logo PKS' width={757} height={1063} className={styles.logo} />
           </NavbarBrand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
