@@ -75,3 +75,9 @@
   clip-path: circle(50% at 50% 50%);
   width: 2vw;
 }
+
+@media only screen and (max-width: 426px) {
+  .logo {
+    height: 40px;
+  }
+}

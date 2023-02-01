@@ -249,3 +249,28 @@
   }
 }
 
+@media only screen and (max-width: 376px) {
+  .greetingsName {
+    font-size: 20px;
+    margin-top:8vh;
+  }
+  .greetingsName p {
+    font-size: 20px;
+  }
+  .greetingsName div {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .greetingsName {
+    font-size: 15px;
+    margin-top: 4vh;
+  }
+  .greetingsName p {
+    font-size: 17px;
+  }
+  .greetingsName div {
+    font-size: 11px;
+  }
+}

@@ -120,22 +120,22 @@ export default function Home() {
         <div className={styles.contactSosmed}>
       <span className={styles.anchor} id='kontak'/>
           <a href='#'>
-            <Facebook size={40}/>
+            <Facebook size={30}/>
           </a>
           <alert>
-            <Instagram size={40}/>
+            <Instagram size={30}/>
           </alert>
           <a href='#'>
-            <Youtube size={40}/>
+            <Youtube size={30}/>
           </a>
           <a href='#'>
-            <Whatsapp size={40}/>
+            <Whatsapp size={30}/>
           </a>
           <a href='#'>
-            <Envelope size={40}/>
+            <Envelope size={30}/>
           </a>
           <a href='#'>
-            <Linkedin size={40}/>
+            <Linkedin size={30}/>
           </a>
         </div>
       </div>
