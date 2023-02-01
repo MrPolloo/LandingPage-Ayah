@@ -9,7 +9,6 @@ import ImageSlider from '@/components/ImageSlider'
 import { SliderData } from '@/components/Data/SliderData'
 import { EduDecs } from '@/components/EduDesc'
 import { ExpDesc } from '@/components/ExpDesc'
-import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -35,13 +34,13 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             </div>
           </div>
-          <Image src='/profil.png' className={styles.photoTop}/>
+          <Image src='/profil.png' alt='profil' className={styles.photoTop}/>
         </div>
 
 
       <div className={styles.cardWhyYouShould}>
         <Col>
-          <Image src='/tkit.jpg' className={styles.cardPhoto}/>
+          <Image src='/tkit.jpg' alt='Foto Ahmad Ependi' className={styles.cardPhoto}/>
         </Col>
         <Col className={styles.textCard}>
           Kenapa Anda Harus Memilih
