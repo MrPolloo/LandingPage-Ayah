@@ -6,7 +6,7 @@ import { Col, Card } from 'react-bootstrap'
 import { ChatSquareDotsFill, Envelope, Facebook, Instagram, Linkedin, Whatsapp, Youtube } from 'react-bootstrap-icons'
 import ImageSlider from '../components/ImageSlider'
 import { SliderData } from '../components/Data/SliderData'
-import { EduData } from './components/Data/EduData'
+import { EduData } from '../components/Data/EduData'
 import { EduDecs } from '../components/EduDesc'
 import { ExpDesc } from '../components/ExpDesc'
 
