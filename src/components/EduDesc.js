@@ -5,7 +5,7 @@ import { EduData } from './Data/EduData'
 export function EduDecs() {
     return (
         <>
-        {EduData?.map((edu, index) => {
+        {EduData?.map((edu) => {
             return (
                 <div key={edu.id} className={styles.eduDescBox}>
                     <div className={styles.eduContent}>

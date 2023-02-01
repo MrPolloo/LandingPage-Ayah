@@ -5,7 +5,7 @@ import { ExpData } from './Data/ExpData'
 export function ExpDesc() {
     return (
         <>
-        {ExpData?.map((exp, index) => {
+        {ExpData?.map((exp) => {
             return (
                 <div key={edu.id} className={styles.eduDescBox}>
                     <div className={styles.eduContent}>
