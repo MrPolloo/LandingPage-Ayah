@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import styles from '../styles/Home.module.css'
 import NavbarModul from '../components/Navbar'
 import { Col, Card } from 'react-bootstrap'
@@ -10,7 +9,6 @@ import { SliderData } from '../components/Data/SliderData'
 import { EduDecs } from '../components/EduDesc'
 import { ExpDesc } from '../components/ExpDesc'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
