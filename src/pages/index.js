@@ -35,7 +35,7 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             </div>
           </div>
-          <Image src='/profil.png' 
+          <Image src='/profil.jpg' 
           width={308} height={400} 
           alt='profil' className={styles.photoTop}/>
         </div>
