@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
-import NavbarModul from '@/components/Navbar'
+import { Inter } from 'next/font/google'
+import styles from '../styles/Home.module.css'
+import NavbarModul from '../components/Navbar'
 import { Col, Card } from 'react-bootstrap'
 import { ChatSquareDotsFill, Envelope, Facebook, Instagram, Linkedin, Whatsapp, Youtube } from 'react-bootstrap-icons'
-import ImageSlider from '@/components/ImageSlider'
-import { SliderData } from '@/components/Data/SliderData'
-import { EduDecs } from '@/components/EduDesc'
-import { ExpDesc } from '@/components/ExpDesc'
+import ImageSlider from '../components/ImageSlider'
+import { SliderData } from '../components/Data/SliderData'
+import { EduDecs } from '../components/EduDesc'
+import { ExpDesc } from '../components/ExpDesc'
 
 const inter = Inter({ subsets: ['latin'] })
 
