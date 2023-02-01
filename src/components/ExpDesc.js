@@ -7,7 +7,7 @@ export function ExpDesc() {
         <>
         {ExpData?.map((exp) => {
             return (
-                <div key={edu.id} className={styles.eduDescBox}>
+                <div key={exp.id} className={styles.eduDescBox}>
                     <div className={styles.eduContent}>
                     <Row>
                         <Col>
