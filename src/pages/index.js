@@ -104,11 +104,11 @@ export default function Home() {
       </div>
       <div className={styles.eduExpBox}>
         <div className={styles.eduBox}>
-          <EduDecs/>
+          <ExpDesc/>
         </div>
         <div className={styles.lineMid}></div>
         <div className={styles.eduBox}>
-         <ExpDesc/>
+          <EduDecs/>
         </div>
       </div>
       <div className={styles.contactMeBg}>
