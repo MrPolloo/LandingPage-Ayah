@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import styles from '../styles/Nav.module.css';
 import '../styles/Nav.module.css';
 import Image from 'next/image';
+import { ThreeDots } from 'react-bootstrap-icons';
 
 
 export function NavbarModul() {
@@ -25,25 +26,27 @@ export function NavbarModul() {
   // window.addEventListener('scroll', changeColor);
     return (
     <>
-      <Navbar sticky="top" className={styles.navbar} >
+      <Navbar sticky="top" expand='lg' className={styles.navbar} >
         <Container fluid className={styles.container}>
           <NavbarBrand href="/home">
             <Image src="/PKS_logo_2020.png" alt='Logo PKS' width={757} height={1063} className={styles.logo} />
           </NavbarBrand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav">
+            <ThreeDots size={30} color={"white"}/>
+          </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
-              <NavLink className={styles.navbutton} href="/home">
+              <NavLink className={styles.navbutton} href="#beranda">
                 Beranda
               </NavLink>
-              <NavLink className={styles.navbutton} href="/cariLowongan">
-                Lowongan
+              <NavLink className={styles.navbutton} href="#exp">
+                Experience
               </NavLink>
-              <NavLink className={styles.navbutton} href="/dataStatistik">
-                Data Statistik
+              <NavLink className={styles.navbutton} href="#kegiatan">
+                Kegiatan
               </NavLink>
-              <NavLink className={styles.navbutton} href="/FAQ">
-                Bantuan
+              <NavLink className={styles.navbutton} href="#kontak">
+                Kontak
               </NavLink>
             </Nav>
           </Navbar.Collapse>

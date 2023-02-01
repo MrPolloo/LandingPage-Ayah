@@ -20,11 +20,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavbarModul/>
-      {/* <div className={styles.headerPhoto}>
-      </div> */}
+      <span className={styles.anchor} id='beranda'/>
         <div className={styles.photoBoxTop}>
           <div className={styles.greetingsName}>
+            Assalamu Alaikum!
+            <br></br>
+            <>
             Hi! Saya
+            </>
             <p>
               Ahmad Ependi
             </p>
@@ -98,9 +101,11 @@ export default function Home() {
         </div>
       </div> */}
       <ImageSlider slides={SliderData}/>
+      <span className={styles.anchorKegiatan} id='kegiatan'/>
       <div className={styles.educationTitle}>
         Education &&nbsp;<p style={{color:'#ffb301'}}>Experience</p>
       </div>
+      <span className={styles.anchor} id='exp'/>
       <div className={styles.eduExpBox}>
         <div className={styles.eduBox}>
           <EduDecs/>
@@ -113,6 +118,7 @@ export default function Home() {
       <div className={styles.contactMeBg}>
         CONTACT ME
         <div className={styles.contactSosmed}>
+      <span className={styles.anchor} id='kontak'/>
           <a href='#'>
             <Facebook size={40}/>
           </a>
