@@ -23,7 +23,7 @@ export default function Home() {
       <span className={styles.anchor} id='beranda'/>
         <div className={styles.photoBoxTop}>
           <div className={styles.greetingsName}>
-            Assalamu 'Alaikum!
+            Assalamu &apos;Alaikum!
             <br></br>
             <>
             Hi! Saya
