@@ -23,7 +23,7 @@ export default function Home() {
       <span className={styles.anchor} id='beranda'/>
         <div className={styles.photoBoxTop}>
           <div className={styles.greetingsName}>
-            Assalamu Alaikum!
+            Assalamu 'Alaikum!
             <br></br>
             <>
             Hi! Saya
@@ -32,33 +32,49 @@ export default function Home() {
               Ahmad Ependi
             </p>
             <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            Terima kasih sudah berkenan berkunjung ke halaman saya ini. <br/>
+            Tiap hari kita dihadapkan pada keharusan memilih. Memilih meneruskan tidur dan bermimpi atau bangun dari tidur dan mewujudkan impian. Memilih membiasakan yang benar atau membenarkan yang biasa. Memilih mencari kebenaran atau pembenaran. Begitu seterusnya setiap hari sampai datang saatnya di mana kita tidak bisa memilih lagi ketika harus menuju ke liang kubur.
+            Nah kali ini  yuk kenali wakil yang akan anda pilih untuk kabupaten Tangerang tercinta.  SAYA WAKIL YANG TEPAT UNTUK ANDA PILIH ?
             </div>
+            
           </div>
           <Image src='/greetingsPhoto.png' 
           width={308} height={400} 
           alt='profil' className={styles.photoTop}/>
         </div>
-
+        <div className={styles.perkenalanBio}>
+          Terima kasih sudah berkenan berkunjung ke halaman saya ini.
+          Tiap hari kita dihadapkan pada keharusan memilih. Memilih meneruskan tidur dan bermimpi atau bangun dari tidur dan mewujudkan impian. Memilih membiasakan yang benar atau membenarkan yang biasa. Memilih mencari kebenaran atau pembenaran. Begitu seterusnya setiap hari sampai datang saatnya di mana kita tidak bisa memilih lagi ketika harus menuju ke liang kubur.<br/>
+          Nah kali ini  yuk kenali wakil yang akan anda pilih untuk kabupaten Tangerang tercinta.  SAYA WAKIL YANG TEPAT UNTUK ANDA PILIH ?
+        </div>
 
       <div className={styles.cardWhyYouShould}>
         <Col>
-          <Image src='/tkit.jpg' width={1920} height={1080} alt='Foto Ahmad Ependi' className={styles.cardPhoto}/>
+          <Image src='/perkenalan.jpg' width={1920} height={1080} alt='Foto Ahmad Ependi' className={styles.cardPhoto}/>
         </Col>
         <Col className={styles.textCard}>
-          Kenapa Anda Harus Memilih
+          Siapakah itu
           <div>
-          Saya Sebagai Kader?
+          Ahmad Ependi ?
           </div>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Halo! Perkenalkan nama saya Ahmad Ependi. Saya lahir di Palembang, 19 Januari 1971.
+          Saat ini saya tinggal di Cluster Catalina, Blok AD3 No.24, Kabupaten Tangerang, Banten.
+          </p>
+          <p>
+          Saya sering sekali menggeluti bidang perkerjaan layanan masyarakat. 
+          Saat masih menjadi mahasiswa, saya menjadi Ketua Himpunan Mahasiswa Kimia di Universitas Sriwijaya.
+          Sempat menjadi Ketua Dewan Kemakmukan Masjid(DKM) di perumahan saya selama 6 tahun.
+          Setelah menjadi Ketua DKM, saya lanjut menjadi Ketua RW 06 di tempat tinggal saya.
+          Saat ini saya juga merupakan Pembina Yayasan Bina Insan Madinah.
+          Ketika di PKS saya diamanahkan menjadi Koordinator Bidang Hubungan Industrial DPW PKS Banten.
           </p>
         </Col>
       </div>
-      <div className={styles.awesomeServ}>
+      {/* <div className={styles.awesomeServ}>
         My Awesome
         <p>&nbsp;Service</p>
-      </div>
+      </div> */}
       {/* <div className={styles.cardServ}>
         <div>
           <Card className={styles.cardServPc}>
@@ -119,19 +135,19 @@ export default function Home() {
         CONTACT ME
         <div className={styles.contactSosmed}>
       <span className={styles.anchor} id='kontak'/>
-          <a href='#'>
+          <a href='https://facebook.com/ahmad.ependi'>
             <Facebook size={30}/>
           </a>
-          <alert>
+          <a href='https://www.instagram.com/ependi90/'>
             <Instagram size={30}/>
-          </alert>
+          </a>
           <a href='#'>
             <Youtube size={30}/>
           </a>
-          <a href='#'>
+          <a href='https://wa.me/628111936791'>
             <Whatsapp size={30}/>
           </a>
-          <a href='#'>
+          <a href='mailto: ependi2010@gmail.com'>
             <Envelope size={30}/>
           </a>
           <a href='#'>

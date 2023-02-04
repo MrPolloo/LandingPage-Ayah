@@ -38,6 +38,7 @@
   width: 45vw;
   height: 100%;
   z-index: 10;
+  shape-outside: inset(0 0 0 0);
 }
 
 .greetingsName {
@@ -54,16 +55,24 @@
   font-size: 80px;
 }
 
-.greetingsName div {
+.greetingsName div{
   width: 40vw;
-  /* margin-top: -20px; */
   font-weight: 100;
   color: white;
   font-size: 20px;
 }
 
+.perkenalanBio{
+  margin: 4vw 5vw 4vw 6vw;
+  font-weight: 400;
+  color: white;
+  font-size: 13px;
+  text-align: justify;
+  text-indent: 4vw;
+}
+
 .cardWhyYouShould {
-  margin: 500px 10vw 20vh 10vw;
+  margin: 15vw 10vw 20vh 5vw;
   display: flex;
   flex-direction: row;
 }
@@ -71,6 +80,7 @@
 .cardPhoto {
   width: 25vw;
   height: 70vh;
+  min-width: 300px;
   border-radius: 20px;
   box-shadow: rgba(255, 179, 1, 0.4) 5px 5px, rgba(255, 179, 1, 0.3) 10px 10px, rgba(255, 179, 1, 0.2) 15px 15px, rgba(255, 179, 1, 0.1) 20px 20px, rgba(255, 179, 1, 0.05) 25px 25px;
   object-fit: cover;
@@ -92,6 +102,8 @@
   font-weight: 100;
   font-size: 20px;
   margin-top: 30px;
+  text-indent: 2vw;
+  text-align: justify;
 }
 
 .awesomeServ {
@@ -207,12 +219,23 @@
 .contactSosmed {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+
+.contactSosmed a:hover{
+  color: black;
 }
 
 .contactMeBg a {
   margin: 10px;
   text-decoration: none;
   color: black;
+}
+
+@media only screen and (min-width: 651px) {
+  .perkenalanBio {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -234,18 +257,67 @@
   .greetingsName div {
     font-size: 14px;
   }
+  .cardPhoto {
+    min-width: 40vw;
+    min-height: max-content;
+  }
+  .cardWhyYouShould {
+    margin-left: 5vw;
+    margin-right: 4vw;
+  }
+  .textCard {
+    font-size: 30px;
+    margin-left: 4vw;
+  }
+  .textCard p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 651px) {
+  .greetingsName div {
+    display: none;
+  }
+  .greetingsName {
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 6vw;
+  }
+  .greetingsName p {
+    font-size: 35px;
+  }
 }
 
 @media only screen and (max-width: 426px) {
   .greetingsName {
     font-size: 20px;
-    margin-top:8vh;
   }
   .greetingsName p {
     font-size: 30px;
   }
   .greetingsName div {
+    display: none;
     font-size: 12px;
+  }
+  .cardPhoto {
+    width: 80vw;
+    height: 60vh;
+  }
+  .cardWhyYouShould {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .textCard {
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .textCard p {
+    font-size: 15px;
   }
 }
 
@@ -260,12 +332,19 @@
   .greetingsName div {
     font-size: 12px;
   }
+  .textCard {
+    font-size: 25px;
+  }
+  .textCard p {
+    font-size: 13px;
+  }
 }
 
 @media only screen and (max-width: 321px) {
   .greetingsName {
     font-size: 15px;
     margin-top: 4vh;
+    
   }
   .greetingsName p {
     font-size: 17px;
