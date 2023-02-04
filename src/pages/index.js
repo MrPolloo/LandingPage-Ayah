@@ -64,7 +64,7 @@ export default function Home() {
           <p>
           Saya sering sekali menggeluti bidang perkerjaan layanan masyarakat. 
           Saat masih menjadi mahasiswa, saya menjadi Ketua Himpunan Mahasiswa Kimia di Universitas Sriwijaya.
-          Sempat menjadi Ketua Dewan Kemakmukan Masjid(DKM) di perumahan saya selama 6 tahun.
+          Sempat menjadi Ketua Dewan Kemakmuran Masjid(DKM) di perumahan saya selama 6 tahun.
           Setelah menjadi Ketua DKM, saya lanjut menjadi Ketua RW 06 di tempat tinggal saya.
           Saat ini saya juga merupakan Pembina Yayasan Bina Insan Madinah.
           Ketika di PKS saya diamanahkan menjadi Koordinator Bidang Hubungan Industrial DPW PKS Banten.
