@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
-      <link rel="shortcut icon" href="/logotitlebar.png" />
+        <link rel="shortcut icon" href="/logotitlebar.png" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet"/>

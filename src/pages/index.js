@@ -17,6 +17,7 @@ export default function Home() {
         <title>Beranda</title>
         <meta name="description" content="Portofolio Dewan" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="/logotitlebar.png" />
       </Head>
       <NavbarModul/>
       <span className={styles.anchor} id='beranda'/>
