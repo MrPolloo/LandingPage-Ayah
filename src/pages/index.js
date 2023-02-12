@@ -23,7 +23,7 @@ export default function Home() {
       <span className={styles.anchor} id='beranda'/>
         <div className={styles.photoBoxTop}>
           <div className={styles.greetingsName}>
-            Assalamu &apos;Alaikum!
+            Assalamu &apos;alaikum!
             <br></br>
             <>
             Hi! Saya
@@ -119,18 +119,24 @@ export default function Home() {
       <ImageSlider slides={SliderData}/>
       <span className={styles.anchorKegiatan} id='kegiatan'/>
       <div className={styles.educationTitle}>
-        Education &&nbsp;<p style={{color:'#ffb301'}}>Experience</p>
+        Education
       </div>
       <span className={styles.anchor} id='exp'/>
       <div className={styles.eduExpBox}>
         <div className={styles.eduBox}>
           <EduDecs/>
         </div>
-        <div className={styles.lineMid}></div>
-        <div className={styles.eduBox}>
-          <ExpDesc/>
-        </div>
+        {/* <div className={styles.lineMid}></div> */}
       </div>
+      <div className={styles.educationTitle}>
+        Experience
+      </div>
+      <span className={styles.anchor} id='exp'/>
+        <div className={styles.eduExpBox}>
+          <div className={styles.eduBox}>
+            <ExpDesc/>
+          </div>
+        </div>
       <div className={styles.contactMeBg}>
         CONTACT ME
         <div className={styles.contactSosmed}>

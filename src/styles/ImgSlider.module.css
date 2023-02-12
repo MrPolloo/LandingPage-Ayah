@@ -15,7 +15,7 @@
 
 .rightArr {
     position: absolute;
-    top: 50%;
+    top: 35%;
     right: 32px;
     font-size: 30px;
     color: white;
@@ -26,7 +26,7 @@
 
 .leftArr {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 32px;
     font-size: 30px;
     color: white;
@@ -61,6 +61,41 @@
 }
 
 .textSlider {
-    margin-top: 10px;
+    margin: 10px 5vh 0 5vh;
     text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .imageSlide {
+        height:55vh;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .imageSlide {
+        height: 40vh;
+        width: 76vw;
+    }
+    .leftArr {
+        top: 30%;
+        left: 10px;
+    }
+    .rightArr {
+        top: 30%;
+        right: 10px;
+    }
+    .textSlider{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .imageSlide {
+        height: 40vh;
+        width: 80vw;
+    }
+    .textSlider{
+     font-size: 13px; 
+    }
 }

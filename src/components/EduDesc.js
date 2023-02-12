@@ -10,10 +10,10 @@ export function EduDecs() {
                 <div key={edu.id} className={styles.eduDescBox}>
                     <div className={styles.eduContent}>
                     <Row>
-                        <Col>
+                        <Col md="auto">
                             {edu.tempat}
                         </Col>
-                        <Col style={{display:'flex',justifyContent:'flex-end',color:'white',}}>
+                        <Col className={styles.eduTextTahun}>
                             {edu.tahun}
                         </Col>
                     </Row>

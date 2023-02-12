@@ -173,8 +173,9 @@
 
 .eduDescBox {
   margin: auto;
-  width: 30vw;
+  width: 60vw;
   height: 90px;
+  min-width: fit-content;
   min-height: fit-content;
   background-color: #31313a;
   border-radius: 15px;
@@ -182,11 +183,21 @@
   font-size: 16px;
   font-weight: 900;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.eduTextTahun {
+  margin-left: 7vw;
+  text-align: right;
+  color: white;
 }
 
 .eduContent {
   margin: 10px 2vw 10px 2vw;
   color: #FFB301;
+  width: 100%;
+  min-height: fit-content;
 }
 
 .eduJurusan {
@@ -196,6 +207,7 @@
   display: flex;
   flex-direction: column;
 }
+
 
 .eduJurusan p {
   margin: 0;
@@ -245,6 +257,9 @@
   .greetingsName p {
     font-size: 60px;
   }
+  .eduDescBox {
+    width: 80vw;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -271,6 +286,15 @@
   }
   .textCard p {
     font-size: 15px;
+  }
+  .eduContent {
+    font-size: 14px;
+  }
+  .eduJurusan {
+    font-size: 12px;
+  }
+  .eduDescBox {
+    width: 80vw;
   }
 }
 
@@ -318,6 +342,12 @@
   }
   .textCard p {
     font-size: 15px;
+  }
+  .eduContent {
+    font-size: 12px;
+  }
+  .eduJurusan {
+    font-size: 10px;
   }
 }
 

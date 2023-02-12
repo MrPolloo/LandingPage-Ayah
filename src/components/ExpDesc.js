@@ -10,10 +10,10 @@ export function ExpDesc() {
                 <div key={exp.id} className={styles.eduDescBox}>
                     <div className={styles.eduContent}>
                     <Row>
-                        <Col>
+                        <Col md="auto" style={{width:'60%'}}>
                             {exp.judul}
                         </Col>
-                        <Col style={{display:'flex',justifyContent:'flex-end',color:'white',}}>
+                        <Col className={styles.eduTextTahun}>
                             {exp.tahun}
                         </Col>
                     </Row>
