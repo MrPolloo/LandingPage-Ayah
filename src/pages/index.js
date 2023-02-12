@@ -17,7 +17,6 @@ export default function Home() {
         <title>Beranda</title>
         <meta name="description" content="Portofolio Dewan" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavbarModul/>
       <span className={styles.anchor} id='beranda'/>
@@ -121,7 +120,7 @@ export default function Home() {
       <div className={styles.educationTitle}>
         Education
       </div>
-      <span className={styles.anchor} id='exp'/>
+      <span className={styles.anchor} id='edu'/>
       <div className={styles.eduExpBox}>
         <div className={styles.eduBox}>
           <EduDecs/>
