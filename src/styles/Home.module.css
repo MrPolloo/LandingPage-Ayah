@@ -20,6 +20,10 @@
   position: absolute;
   transform: translateY(-50vh);
 }
+.anchorVisi {
+  position: absolute;
+  transform: translateY(-15vh);
+}
 
 .anchorKegiatan {
   position: absolute;

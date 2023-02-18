@@ -71,6 +71,7 @@ export default function Home() {
           </p>
         </Col>
       </div>
+      <span className={styles.anchorVisi} id='visi'/>
       <div className={styles.awesomeServ}>
         Visi
         <p>&nbsp;& Misi</p>
