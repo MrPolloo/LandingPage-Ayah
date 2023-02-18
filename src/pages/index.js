@@ -79,7 +79,7 @@ export default function Home() {
       <div className={styles.visiTitle}>
         Visi
         <div className={styles.visiText}>
-        "Menjadi  yang terdepan dalam memperjuangkan kepentingan rakyat untuk mewujudkan Indonesia yang berkarakter, bermartabat, adil, dan sejahtera"
+        &quot;Menjadi  yang terdepan dalam memperjuangkan kepentingan rakyat untuk mewujudkan Indonesia yang berkarakter, bermartabat, adil, dan sejahtera&quot;
         </div>
       </div>
       <div className={styles.misiTitle}>
