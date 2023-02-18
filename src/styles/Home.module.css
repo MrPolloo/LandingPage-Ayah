@@ -72,7 +72,7 @@
 }
 
 .cardWhyYouShould {
-  margin: 15vw 10vw 20vh 5vw;
+  margin: 15vw 10vw 10vh 5vw;
   display: flex;
   flex-direction: row;
 }
@@ -244,6 +244,73 @@
   color: black;
 }
 
+.visiTitle {
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.visiText {
+  font-weight: 100;
+  font-style: italic;
+}
+
+.misiTitleText {
+  color: white;
+  font-weight: 900;
+  margin: 2vh 0 1vh 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.twoMisiText div {
+  text-align: justify;
+  margin-bottom: 2vh;
+}
+
+.twoMisiText div div{
+  border: 5px solid #FFB301;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.misiTitle {
+  color: #FFB301;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+.misiText div {
+  font-weight: 100;
+  color: white;
+}
+.misiTitleText p {
+  margin:0;
+  color: #FFB301;
+}
+
+.visiTitle, .misiTitle{
+  font-size: 25px;
+}
+.visiText, .misiText{
+  font-size: 18px;
+  padding: 4vh 10vw 4vh 10vw;
+}
+.twoMisiText {
+  display: flex;
+  flex-direction: row;
+  gap: 7vw;
+}
+.twoMisiText div{
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (min-width: 651px) {
   .perkenalanBio {
     display: none;
@@ -251,6 +318,13 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .visiTitle, .misiTitle{
+    font-size: 25px;
+  }
+  .visiText, .misiText{
+    font-size: 18px;
+    padding: 2vh 15vw 2vh 15vw;
+  }
   .greetingsName {
     font-size: 55px;
   }
@@ -263,6 +337,13 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .visiTitle, .misiTitle{
+    font-size: 25px;
+  }
+  .visiText, .misiText{
+    font-size: 18px;
+    padding: 2vh 7vw 2vh 7vw;
+  }
   .greetingsName {
     font-size: 40px;
   }
@@ -315,6 +396,16 @@
 }
 
 @media only screen and (max-width: 426px) {
+  .twoMisiText {
+    display: flex;
+    flex-direction: column;
+  }
+  .visiTitle, .misiTitle{
+    font-size: 22px;
+  }
+  .visiText, .misiText{
+    font-size: 17px;
+  }
   .greetingsName {
     font-size: 20px;
   }
@@ -352,6 +443,16 @@
 }
 
 @media only screen and (max-width: 376px) {
+  .twoMisiText {
+    display: flex;
+    flex-direction: column;
+  }
+  .visiTitle, .misiTitle{
+    font-size: 20px;
+  }
+  .visiText, .misiText{
+    font-size: 16px;
+  }
   .greetingsName {
     font-size: 20px;
     margin-top:8vh;
@@ -371,6 +472,10 @@
 }
 
 @media only screen and (max-width: 321px) {
+  .twoMisiText {
+    display: flex;
+    flex-direction: column;
+  }
   .greetingsName {
     font-size: 15px;
     margin-top: 4vh;
@@ -381,5 +486,26 @@
   }
   .greetingsName div {
     font-size: 11px;
+  }
+  .awesomeServ {
+    font-size: 25px;
+  }
+  .visiTitle {
+    font-size: 20px;
+  }
+  .visiText{
+    font-size: 15px;
+  }
+  .misiTitleText {
+    font-size: 15px;
+  }
+  .misiTitleText p {
+    font-size: 15px;
+  }
+  .misiTitle {
+    font-size: 20px;
+  }
+  .misiText div{
+    font-size: 13px;
   }
 }

@@ -71,51 +71,75 @@ export default function Home() {
           </p>
         </Col>
       </div>
-      {/* <div className={styles.awesomeServ}>
-        My Awesome
-        <p>&nbsp;Service</p>
-      </div> */}
-      {/* <div className={styles.cardServ}>
-        <div>
-          <Card className={styles.cardServPc}>
-            <Card.Body>
-              <ChatSquareDotsFill size={40} className={styles.iconCardServ}/>
-              <Card.Title style={{fontWeight:'700'}}>Card Title</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+      <div className={styles.awesomeServ}>
+        Visi
+        <p>&nbsp;& Misi</p>
+      </div>
+      <div className={styles.visiTitle}>
+        Visi
+        <div className={styles.visiText}>
+        "Menjadi  yang terdepan dalam memperjuangkan kepentingan rakyat untuk mewujudkan Indonesia yang berkarakter, bermartabat, adil, dan sejahtera"
         </div>
-        <div>
-          <Card className={styles.cardServPc} style={{"--bs-card-bg":'#FFB301!important'}}>
-            <Card.Body>
-              <ChatSquareDotsFill size={40} className={styles.iconCardServ}/>
-              <Card.Title style={{fontWeight:'700'}}>Card Title</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
+      </div>
+      <div className={styles.misiTitle}>
+        Misi
+        <div className={styles.misiText}>
+          <div className={styles.twoMisiText}>
+            <Col>
+              <p className={styles.misiTitleText}>
+                <p>1.&nbsp;</p>Memperjuangkan Kebijakan Publik
+              </p>
+              <div>
+                Memperjuang kebijakan publik yang berpihak kepada kemaslahatan rakyat,  bangsa, dan negara yang bersih dari korupsi, kolusi, dan nepotisme
+              </div>
+            </Col>
+            <Col>
+              <p className={styles.misiTitleText}>
+                <p>2.&nbsp;</p>Mengembangkan Demokrasi
+              </p>
+              <div>
+                Turut berperan serta dalam pengembangan demokratisasi di kawasan, dan pengembangan kerjasama internasional untuk memperkokoh posisi Indonesia Mendorong dan memperkuat lahirnya peraturan daerah yang melindungi kepentingan rakyat, daerah,   dan meningkatkan kesejahteraan rakyat
+              </div>
+            </Col>
+          </div>
+          <div className={styles.twoMisiText}>
+            <Col>
+              <p className={styles.misiTitleText}>
+                <p>3.&nbsp;</p>Memfokuskan Anggaran
+              </p>
+              <div>
+                Mendorong politik anggaran yang berpihak kepada penanggulangan pengangguran, kemiskinan, pembangunan infrastruktur, dan peningkatan kapasitas sumber daya manusia Indonesia yang kreatif dan handal
+              </div>
+            </Col>
+            <Col>
+              <p className={styles.misiTitleText}>
+                <p>4.&nbsp;</p>Mengawasi Secara Kritis
+              </p>
+              <div>
+                Mendorong lembaga DPR menjadi penyeimbang kekuasaan eksekutif, dengan cara melakukan pengawasan yang kritis konstruktif dan kuat terhadap jalannya pembangunan
+              </div>
+            </Col>
+          </div>
+          <div className={styles.twoMisiText}>
+            <Col>
+              <p className={styles.misiTitleText}>
+                <p>5.&nbsp;</p>Mengawasi Kinerja DPRD
+              </p>
+              <div>
+                Meningkatkan partisipasi Masyarakat dalam  mengawasi Kinerja Dewan Perwakilan Rakyat Daerah 
+              </div>
+            </Col>
+            <Col>
+              <p className={styles.misiTitleText}>
+                <p>6.&nbsp;</p>Menerapkan Transparansi
+              </p>
+              <div>
+                Mendorong terwujudnya Penyelenggaraan Pemerintahan yang transparan, bersih dan akuntabel 
+              </div>
+            </Col>
+          </div>
         </div>
-        <div>
-          <Card className={styles.cardServPc}>
-            <Card.Body>
-              <ChatSquareDotsFill size={40} className={styles.iconCardServ}/>
-              <Card.Title style={{fontWeight:'700'}}>Card Title</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </div>
-      </div> */}
+      </div>
       <ImageSlider slides={SliderData}/>
       <span className={styles.anchorKegiatan} id='kegiatan'/>
       <div className={styles.educationTitle}>

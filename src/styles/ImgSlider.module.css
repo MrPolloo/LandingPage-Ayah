@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50vh;
+    margin-top: 20vh;
     margin-bottom: 200px;
 }
 
@@ -82,8 +82,7 @@
 
 @media only screen and (max-width: 426px) {
     .slider {
-        margin-top: -100px;
-        margin-bottom: -80px;
+        margin-top: -10px;
     }
     .imageSlide {
         height: 40vh;
@@ -103,9 +102,6 @@
 }
 
 @media only screen and (max-width: 321px) {
-    .slider {
-        margin-top: -200px;
-    }
     .imageSlide {
         height: 40vh;
         width: 80vw;

@@ -40,10 +40,10 @@ export function NavbarModul() {
                 Beranda
               </NavLink>
               <NavLink className={styles.navbutton} href="#edu">
-                Education
+                Edukasi
               </NavLink>
               <NavLink className={styles.navbutton} href="#exp">
-                Experience
+                Pengalaman
               </NavLink>
               <NavLink className={styles.navbutton} href="#kegiatan">
                 Kegiatan
