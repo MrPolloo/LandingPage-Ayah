@@ -8,6 +8,7 @@ import ImageSlider from '../components/ImageSlider'
 import { SliderData } from '../components/Data/SliderData'
 import { EduDecs } from '../components/EduDesc'
 import { ExpDesc } from '../components/ExpDesc'
+import { ProgjaCard } from '@/components/ProgjaCard'
 
 
 export default function Home() {
@@ -141,10 +142,19 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className={styles.progjaTitle}>
+        Program<div>&nbsp;Kerja</div>
+      </div>
+      <span className={styles.anchorProgja} id='progja'/>
+      <div className={styles.progjaContentBox}>
+        <ProgjaCard/>
+      </div>
+
       <ImageSlider slides={SliderData}/>
       <span className={styles.anchorKegiatan} id='kegiatan'/>
       <div className={styles.educationTitle}>
-        Education
+        Riwayat Edukasi
       </div>
       <span className={styles.anchor} id='edu'/>
       <div className={styles.eduExpBox}>
@@ -154,7 +164,7 @@ export default function Home() {
         {/* <div className={styles.lineMid}></div> */}
       </div>
       <div className={styles.educationTitle}>
-        Experience
+        Pengalaman
       </div>
       <span className={styles.anchor} id='exp'/>
         <div className={styles.eduExpBox}>

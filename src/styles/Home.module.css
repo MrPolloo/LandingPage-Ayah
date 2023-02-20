@@ -25,9 +25,13 @@
   transform: translateY(-15vh);
 }
 
+.anchorProgja {
+  position: absolute;
+  transform: translateY(-20vh);
+}
 .anchorKegiatan {
   position: absolute;
-  transform: translateY(-100vh);
+  transform: translateY(-130vh);
 }
 
 .photoBoxTop {
@@ -315,6 +319,49 @@
   flex-direction: column;
 }
 
+.progjaTitle {
+  color: white;
+  font-size: 40px;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.progjaTitle div {
+  color: #FFB301;
+}
+
+.progjaContentBox {
+  padding: 5vh 5vw 5vh 5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.progjaCard {
+  width: 40vw;
+  background-color: transparent!important;
+  border: 5px solid #FFB301!important;
+  border-radius: 15px!important;
+  margin-bottom: 4vh!important;
+  text-align: center;
+  color: white;
+}
+
+.progjaTitleCard {
+  color: rgb(223, 181, 66);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.progjaText {
+  font-size: 16px;
+}
+
 @media only screen and (min-width: 651px) {
   .perkenalanBio {
     display: none;
@@ -400,6 +447,9 @@
 }
 
 @media only screen and (max-width: 426px) {
+  .progjaCard {
+    width: 80vw;
+  }
   .twoMisiText {
     display: flex;
     flex-direction: column;
@@ -476,6 +526,18 @@
 }
 
 @media only screen and (max-width: 321px) {
+  .progjaTitle {
+    font-size: 25px;
+  }
+  .progjaCard {
+    width: 80vw;
+  }
+  .progjaTitleCard {
+    font-size: 16px;
+  }
+  .progjaText {
+    font-size: 12px;
+  }
   .twoMisiText {
     display: flex;
     flex-direction: column;
