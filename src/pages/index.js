@@ -80,7 +80,7 @@ export default function Home() {
       <div className={styles.visiTitle}>
         Visi
         <div className={styles.visiText}>
-        &quot;Menjadi  yang terdepan dalam memperjuangkan kepentingan rakyat untuk mewujudkan Indonesia yang berkarakter, bermartabat, adil, dan sejahtera&quot;
+        &quot;Menjadi  yang terdepan dalam memperjuangkan kepentingan rakyat untuk mewujudkan Kabupaten Tangerang yang Religius, berakhlak mulia, adil dan sejahtera&quot;
         </div>
       </div>
       <div className={styles.misiTitle}>
@@ -89,54 +89,54 @@ export default function Home() {
           <div className={styles.twoMisiText}>
             <Col>
               <p className={styles.misiTitleText}>
-                <p>1.&nbsp;</p>Memperjuangkan Kebijakan Publik
+                <p>1.&nbsp;</p>Mendorong nilai keagamaan
               </p>
               <div>
-                Memperjuang kebijakan publik yang berpihak kepada kemaslahatan rakyat,  bangsa, dan negara yang bersih dari korupsi, kolusi, dan nepotisme
+                Mendorong peningkatkan penerapan nilai-nilai keagamaan dalam kehidupan bermasyarakat menuju masyarakat yang religius
               </div>
             </Col>
             <Col>
               <p className={styles.misiTitleText}>
-                <p>2.&nbsp;</p>Mengembangkan Demokrasi
+                <p>2.&nbsp;</p>Memperjuangkan kebijakan publik yang bersih
               </p>
               <div>
-                Turut berperan serta dalam pengembangan demokratisasi di kawasan, dan pengembangan kerjasama internasional untuk memperkokoh posisi Indonesia Mendorong dan memperkuat lahirnya peraturan daerah yang melindungi kepentingan rakyat, daerah,   dan meningkatkan kesejahteraan rakyat
-              </div>
-            </Col>
-          </div>
-          <div className={styles.twoMisiText}>
-            <Col>
-              <p className={styles.misiTitleText}>
-                <p>3.&nbsp;</p>Memfokuskan Anggaran
-              </p>
-              <div>
-                Mendorong politik anggaran yang berpihak kepada penanggulangan pengangguran, kemiskinan, pembangunan infrastruktur, dan peningkatan kapasitas sumber daya manusia Indonesia yang kreatif dan handal
-              </div>
-            </Col>
-            <Col>
-              <p className={styles.misiTitleText}>
-                <p>4.&nbsp;</p>Mengawasi Secara Kritis
-              </p>
-              <div>
-                Mendorong lembaga DPR menjadi penyeimbang kekuasaan eksekutif, dengan cara melakukan pengawasan yang kritis konstruktif dan kuat terhadap jalannya pembangunan
+                Memperjuang kebijakan publik yang berpihak kepada kemaslahatan masyarakat yang bersih dari korupsi, kolusi, dan nepotisme
               </div>
             </Col>
           </div>
           <div className={styles.twoMisiText}>
             <Col>
               <p className={styles.misiTitleText}>
-                <p>5.&nbsp;</p>Mengawasi Kinerja DPRD
+                <p>3.&nbsp;</p>Mendorong peraturan yang melindungi rakyat
               </p>
               <div>
-                Meningkatkan partisipasi Masyarakat dalam  mengawasi Kinerja Dewan Perwakilan Rakyat Daerah 
+                Mendorong dan memperkuat lahirnya peraturan daerah yang melindungi kepentingan rakyat, daerah, dan meningkatkan kesejahteraan rakyat
               </div>
             </Col>
             <Col>
               <p className={styles.misiTitleText}>
-                <p>6.&nbsp;</p>Menerapkan Transparansi
+                <p>4.&nbsp;</p>Mendorong anggaran untuk rakyat
               </p>
               <div>
-                Mendorong terwujudnya Penyelenggaraan Pemerintahan yang transparan, bersih dan akuntabel 
+                Mendorong politik anggaran yang berpihak kepada Rakyat untuk penanggulangan pengangguran, kemiskinan, pembangunan infrastruktur, dan peningkatan kapasitas sumber daya manusia Indonesia yang kreatif dan handal
+              </div>
+            </Col>
+          </div>
+          <div className={styles.twoMisiText}>
+            <Col>
+              <p className={styles.misiTitleText}>
+                <p>5.&nbsp;</p>Meningkatkan partisipasi masyarakat
+              </p>
+              <div>
+                Meningkatkan partisipasi Masyarakat dalam mengawasi Kinerja Dewan Perwakilan Rakyat Daerah
+              </div>
+            </Col>
+            <Col>
+              <p className={styles.misiTitleText}>
+                <p>6.&nbsp;</p>Mendorong pemerintahan yang transparan
+              </p>
+              <div>
+                Mendorong terwujudnya Penyelenggaraan Pemerintahan yang transparan, bersih dan akuntabel
               </div>
             </Col>
           </div>
