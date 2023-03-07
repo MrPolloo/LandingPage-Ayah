@@ -28,7 +28,7 @@ export function NavbarModul() {
     <>
       <Navbar sticky="top" expand='lg' className={styles.navbar} >
         <Container fluid className={styles.container}>
-          <NavbarBrand href="/home">
+          <NavbarBrand href="#beranda">
             <Image src="/PKS_logo_2020.png" alt='Logo PKS' width={757} height={1063} className={styles.logo} />
           </NavbarBrand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -46,10 +46,10 @@ export function NavbarModul() {
                 Program Kerja
               </NavLink>
               <NavLink className={styles.navbutton} href="#edu">
-                Edukasi
+                Riwayat Pendidikan
               </NavLink>
               <NavLink className={styles.navbutton} href="#exp">
-                Pengalaman
+                Pengalaman Organisasi
               </NavLink>
               <NavLink className={styles.navbutton} href="#kegiatan">
                 Kegiatan
