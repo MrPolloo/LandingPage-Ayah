@@ -3,14 +3,14 @@ export const EduData = [
         id: '1',
         tempat: 'Universitas Sriwijaya',
         tingkatan: 'S1',
-        jurusan: 'Jurusan Kimia',
+        jurusan: 'FMIPA Kimia',
         tahun: '1990-1995'
     },
     {
         id: '2',
-        tempat: 'SMAN 4 Ilir Timur II',
+        tempat: 'SMAN 5 Palembang',
         tingkatan: 'SMA',
-        jurusan: 'IPS',
+        jurusan: 'Biologi',
         tahun: '1988-1990'
     },
     {

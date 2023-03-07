@@ -162,6 +162,11 @@
   justify-content: center;
   margin: 15vh 0 10vh 0;
   font-size: 30px;
+  flex-wrap: wrap;
+}
+
+.educationTitle div {
+  color: #FFB301;
 }
 
 .eduExpBox {

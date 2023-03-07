@@ -154,7 +154,7 @@ export default function Home() {
       <ImageSlider slides={SliderData}/>
       <span className={styles.anchorKegiatan} id='kegiatan'/>
       <div className={styles.educationTitle}>
-        Riwayat Edukasi
+        Riwayat <div>&nbsp;Pendidikan</div>
       </div>
       <span className={styles.anchor} id='edu'/>
       <div className={styles.eduExpBox}>
@@ -165,6 +165,7 @@ export default function Home() {
       </div>
       <div className={styles.educationTitle}>
         Pengalaman
+        <div>&nbsp;Organisasi</div>
       </div>
       <span className={styles.anchor} id='exp'/>
         <div className={styles.eduExpBox}>
