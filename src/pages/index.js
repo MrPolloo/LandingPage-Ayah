@@ -63,12 +63,10 @@ export default function Home() {
           Saat ini saya tinggal di Cluster Catalina, Blok AD3 No.24, Kabupaten Tangerang, Banten.
           </p>
           <p>
-          Saya sering sekali menggeluti bidang perkerjaan layanan masyarakat. 
-          Saat masih menjadi mahasiswa, saya menjadi Ketua Himpunan Mahasiswa Kimia di Universitas Sriwijaya.
-          Sempat menjadi Ketua Dewan Kemakmuran Masjid(DKM) di perumahan saya selama 6 tahun.
-          Setelah menjadi Ketua DKM, saya lanjut menjadi Ketua RW 06 di tempat tinggal saya.
-          Saat ini saya juga merupakan Pembina Yayasan Bina Insan Madinah.
-          Ketika di PKS saya diamanahkan menjadi Koordinator Bidang Hubungan Industrial DPW PKS Banten.
+          Saya aktif di berbagai kegiatan Sosial. Mulai saat SMP saya suka ikut Kegiatan Pramuka, dan di SMA saya ikut Paskibra sekolah, juga menjadi Pengurus OSIS.  
+          Ketika Kuliah di UNSRI, Fakultas MIPA, saya juga menjadi ketua Himpunan Mahasiswa Kimia dan Juga menjadi Ketua III SEMA FMIPA, UNSRI, Palembang.
+          Di Tempat tinggal saya, saya pernah dipercaya menjadi Ketua Masjid Al Muhajirin Ketua Dewan Kemakmuran Masjid dan setelah selesai menjadi pengurus DKM, saya dipilih menjadi Ketua RW, selama 2 periode.
+          Saat ini saya masih menjabat sebagai Koordinator Bidang Tani & Nelayan DPD PKS Kab. Tangerang,  juga Ketua Biro Hubungan Industrial, DPW PKS Banten.
           </p>
         </Col>
       </div>
