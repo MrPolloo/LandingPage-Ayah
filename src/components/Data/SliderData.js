@@ -19,4 +19,9 @@ export const SliderData = [
         judul: 'Bersama Pak Lurah Medang',
         text: 'Foto Bersama Pak Lurah Medang, Bp. Gilang Pratama disela acara BIAN di catalina'
     },
+    {
+        image: '/Rapat koordinasi LPMK Medang, Pagedangan, Tangerang.jpg',
+        judul: 'Rapat Koordinasi LPMK Medang 2022, Pagedangan, Tangerang, Banten.',
+        text: 'Foto Bersama Setelah Rapat Koordinasi'
+    },
 ]

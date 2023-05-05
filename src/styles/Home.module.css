@@ -94,6 +94,7 @@
   object-fit: cover;
 }
 
+
 .textCard {
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -112,6 +113,41 @@
   margin-top: 30px;
   text-indent: 2vw;
   text-align: justify;
+}
+.family {
+  margin: 10vh 10vw 10vh 10vw;
+}
+
+.divFamily {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.photoFamily {
+  height: 60vh;
+  width: 70vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  box-shadow: rgba(255, 179, 1, 0.4) 5px 5px, rgba(255, 179, 1, 0.3) 10px 10px, rgba(255, 179, 1, 0.2) 15px 15px, rgba(255, 179, 1, 0.1) 20px 20px, rgba(255, 179, 1, 0.05) 25px 25px;
+}
+
+.familyTitle {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  color: #FFB301;
+  font-weight: 900;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.urutanKeluarga {
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
 
 .awesomeServ {
@@ -393,6 +429,17 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .photoFamily {
+    height: 40vh;
+  }
+
+  .familyTitle {
+    font-size: 35px;
+  }
+  .urutanKeluarga {
+    font-size: 15px;
+  }
+
   .visiTitle, .misiTitle{
     font-size: 25px;
   }
@@ -452,6 +499,9 @@
 }
 
 @media only screen and (max-width: 426px) {
+  .photoFamily {
+    height: 30vh;
+  }
   .progjaCard {
     width: 80vw;
   }
@@ -502,6 +552,10 @@
 }
 
 @media only screen and (max-width: 376px) {
+  .photoFamily {
+    height: 20vh;
+    width: 90vw;
+  }
   .twoMisiText {
     display: flex;
     flex-direction: column;

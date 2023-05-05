@@ -35,7 +35,7 @@ export default function Home() {
             <div>
             Terima kasih sudah berkenan berkunjung ke halaman saya ini. <br/>
             Tiap hari kita dihadapkan pada keharusan memilih. Memilih meneruskan tidur dan bermimpi atau bangun dari tidur dan mewujudkan impian. Memilih membiasakan yang benar atau membenarkan yang biasa. Memilih mencari kebenaran atau pembenaran. Begitu seterusnya setiap hari sampai datang saatnya di mana kita tidak bisa memilih lagi ketika harus menuju ke liang kubur.
-            Nah kali ini  yuk kenali wakil yang akan anda pilih untuk kabupaten Tangerang tercinta.  SAYA WAKIL YANG TEPAT UNTUK ANDA PILIH ?
+            Nah kali ini yuk kenali wakil yang akan anda pilih untuk kabupaten Tangerang tercinta. SAYA WAKIL YANG TEPAT UNTUK ANDA PILIH ?
             </div>
             
           </div>
@@ -46,7 +46,7 @@ export default function Home() {
         <div className={styles.perkenalanBio}>
           Terima kasih sudah berkenan berkunjung ke halaman saya ini.
           Tiap hari kita dihadapkan pada keharusan memilih. Memilih meneruskan tidur dan bermimpi atau bangun dari tidur dan mewujudkan impian. Memilih membiasakan yang benar atau membenarkan yang biasa. Memilih mencari kebenaran atau pembenaran. Begitu seterusnya setiap hari sampai datang saatnya di mana kita tidak bisa memilih lagi ketika harus menuju ke liang kubur.<br/>
-          Nah kali ini  yuk kenali wakil yang akan anda pilih untuk kabupaten Tangerang tercinta.  SAYA WAKIL YANG TEPAT UNTUK ANDA PILIH ?
+          Nah kali ini yuk kenali wakil yang akan anda pilih untuk kabupaten Tangerang tercinta. SAYA WAKIL YANG TEPAT UNTUK ANDA PILIH ?
         </div>
 
       <div className={styles.cardWhyYouShould}>
@@ -59,16 +59,35 @@ export default function Home() {
           Ahmad Ependi ?
           </div>
           <p>
-          Halo! Perkenalkan nama saya Ahmad Ependi. Saya lahir di Palembang, 19 Januari 1971.
-          Saat ini saya tinggal di Cluster Catalina, Blok AD3 No.24, Kabupaten Tangerang, Banten.
+          Saya adalah seorang pegawai swasta yang banyak pengalaman kerja dibidang Pemasaran selama 26 tahun. Saya lahir di Palembang, 19 Januari 1971. Saat ini saya tinggal di Cluster Catalina, Blok AD3 No.24, Kelurahan Medang, Kecamatan Pagedangan, Kabupaten Tangerang, Banten. 
+          Keseharian saya juga aktif di berbagai Organisasi sosial di Masjid, Lingkungan RW, Kelurahan dan Politik di Partai Keadilan Sejahtera (PKS).
           </p>
           <p>
-          Saya aktif di berbagai kegiatan Sosial. Mulai saat SMP saya suka ikut Kegiatan Pramuka, dan di SMA saya ikut Paskibra sekolah, juga menjadi Pengurus OSIS.  
-          Ketika Kuliah di UNSRI, Fakultas MIPA, saya juga menjadi ketua Himpunan Mahasiswa Kimia dan Juga menjadi Ketua III SEMA FMIPA, UNSRI, Palembang.
-          Di Tempat tinggal saya, saya pernah dipercaya menjadi Ketua Masjid Al Muhajirin Ketua Dewan Kemakmuran Masjid dan setelah selesai menjadi pengurus DKM, saya dipilih menjadi Ketua RW, selama 2 periode.
-          Saat ini saya masih menjabat sebagai Koordinator Bidang Tani & Nelayan DPD PKS Kab. Tangerang,  juga Ketua Biro Hubungan Industrial, DPW PKS Banten.
+          Istri saya Hj. Rosmi Susilawati, M.Pd, adalah seorang guru SMP di Kota Tangerang, juga sebagai Ketua Bidang Pendidikan di Yayasan Bina Insan Madinah, RW06, Cluster Catalina, yang mempunyai TKIT dan TPQ (Taman Pendidikan Al Qur'an). 
+          Anak saya 4 orang, 3 laki laki dan 1 bungsu Perempuan.
+          </p>
+          <p>
+          Di Keseharian saya juga aktif di berbagai kegiatan Sosial, di Masjid, RT, RW, Kelurahan dan Politik yaitu di Partai Keadilan Sejahtera (PKS). 
+          Organisasi adalah hobbi saya, sejak SMP saya suka ikut Kegiatan Pramuka, sampai Kuliah dan sampai sekarang ini, karena saya senang bertemu banyak orang orang baru dan juga tantangan tantangan baru.
+          </p>
+          <p>
+          Motto hidup : "Sebaik baik manusia adalah yang paling bermanfaat bagi manusia lain"
           </p>
         </Col>
+      </div>
+      <span className={styles.anchorVisi} id='keluarga'/>
+      <div className={styles.family}>
+        <div className={styles.divFamily}>
+          <Image src='/Keluarga (2).jpg' width={1920} height={1080} alt='Foto Keluarga' className={styles.photoFamily}/>
+        </div>
+        <div className={styles.familyTitle}>
+          <div>
+            Keluargaku
+          </div>
+          <div className={styles.urutanKeluarga}>
+          Athoya (21th), M. Nauval (22th), Ahmad Ependi (52th), Hj. Rosmi Susilawati, M.Pd (Istri, 51th), Haura Tsabita (18th), Imam Abiyyu (24th)
+          </div>
+        </div>
       </div>
       <span className={styles.anchorVisi} id='visi'/>
       <div className={styles.awesomeServ}>
@@ -78,7 +97,7 @@ export default function Home() {
       <div className={styles.visiTitle}>
         Visi
         <div className={styles.visiText}>
-        &quot;Menjadi  yang terdepan dalam memperjuangkan kepentingan rakyat untuk mewujudkan Kabupaten Tangerang yang Religius, berakhlak mulia, adil dan sejahtera&quot;
+        &quot;Menjadi yang terdepan dalam memperjuangkan kepentingan rakyat untuk mewujudkan Kabupaten Tangerang yang Religius, berakhlak mulia, adil dan sejahtera&quot;
         </div>
       </div>
       <div className={styles.misiTitle}>

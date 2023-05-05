@@ -39,6 +39,9 @@ export function NavbarModul() {
               <NavLink className={styles.navbutton} href="#beranda">
                 Beranda
               </NavLink>
+              <NavLink className={styles.navbutton} href="#keluarga">
+                Keluarga
+              </NavLink>
               <NavLink className={styles.navbutton} href="#visi">
                 Visi & Misi
               </NavLink>
