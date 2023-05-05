@@ -63,7 +63,7 @@ export default function Home() {
           Keseharian saya juga aktif di berbagai Organisasi sosial di Masjid, Lingkungan RW, Kelurahan dan Politik di Partai Keadilan Sejahtera (PKS).
           </p>
           <p>
-          Istri saya Hj. Rosmi Susilawati, M.Pd, adalah seorang guru SMP di Kota Tangerang, juga sebagai Ketua Bidang Pendidikan di Yayasan Bina Insan Madinah, RW06, Cluster Catalina, yang mempunyai TKIT dan TPQ (Taman Pendidikan Al Qur'an). 
+          Istri saya Hj. Rosmi Susilawati, M.Pd, adalah seorang guru SMP di Kota Tangerang, juga sebagai Ketua Bidang Pendidikan di Yayasan Bina Insan Madinah, RW06, Cluster Catalina, yang mempunyai TKIT dan TPQ (Taman Pendidikan Al Qur&apos;an). 
           Anak saya 4 orang, 3 laki laki dan 1 bungsu Perempuan.
           </p>
           <p>
@@ -71,7 +71,7 @@ export default function Home() {
           Organisasi adalah hobbi saya, sejak SMP saya suka ikut Kegiatan Pramuka, sampai Kuliah dan sampai sekarang ini, karena saya senang bertemu banyak orang orang baru dan juga tantangan tantangan baru.
           </p>
           <p>
-          Motto hidup : "Sebaik baik manusia adalah yang paling bermanfaat bagi manusia lain"
+          Motto hidup : &quot;Sebaik baik manusia adalah yang paling bermanfaat bagi manusia lain&quot;
           </p>
         </Col>
       </div>
